@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>taru</Author>
+ </Creator>
+ <Manufacturer>YUER</Manufacturer>
+ <Model>YUER Laser</Model>
+ <Type>Laser</Type>
+ <Channel Name="On/Off">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="10">Off</Capability>
+  <Capability Min="11" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="R">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="10">Off</Capability>
+  <Capability Min="11" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="G">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="10">Off</Capability>
+  <Capability Min="11" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="B">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="10">Off</Capability>
+  <Capability Min="11" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Shutter">
+  <Group Byte="1">Shutter</Group>
+  <Capability Min="0" Max="10">Off</Capability>
+  <Capability Min="11" Max="255">Speed</Capability>
+ </Channel>
+ <Channel Name="Gap">
+  <Group Byte="0">Beam</Group>
+ </Channel>
+ <Channel Name="Shape">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="Shape 1">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="Size">
+  <Group Byte="0">Pan</Group>
+ </Channel>
+ <Channel Name="Morphing">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Rotate Z">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="127">Rotate</Capability>
+  <Capability Min="128" Max="255">Rotate Speed</Capability>
+ </Channel>
+ <Channel Name="Rotate X">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="127">Rotate</Capability>
+  <Capability Min="128" Max="255">Rotate Speed</Capability>
+ </Channel>
+ <Channel Name="Rotate Y">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="127">Rotate</Capability>
+  <Capability Min="128" Max="255">Rotate Speed</Capability>
+ </Channel>
+ <Channel Name="Position X">
+  <Group Byte="0">Pan</Group>
+ </Channel>
+ <Channel Name="Position Y">
+  <Group Byte="0">Tilt</Group>
+ </Channel>
+ <Channel Name="Wiggle">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Trace">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Move Point</Capability>
+  <Capability Min="128" Max="255">Animation Speed</Capability>
+ </Channel>
+ <Channel Name="Macro">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="Nothing?">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="Nothing??">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="FrameRate">
+  <Group Byte="0">Speed</Group>
+ </Channel>
+ <Mode Name="20ch">
+  <Channel Number="0">On/Off</Channel>
+  <Channel Number="1">R</Channel>
+  <Channel Number="2">G</Channel>
+  <Channel Number="3">B</Channel>
+  <Channel Number="4">Shutter</Channel>
+  <Channel Number="5">Gap</Channel>
+  <Channel Number="6">FrameRate</Channel>
+  <Channel Number="7">Shape</Channel>
+  <Channel Number="8">Shape 1</Channel>
+  <Channel Number="9">Size</Channel>
+  <Channel Number="10">Morphing</Channel>
+  <Channel Number="11">Rotate Z</Channel>
+  <Channel Number="12">Rotate X</Channel>
+  <Channel Number="13">Rotate Y</Channel>
+  <Channel Number="14">Position X</Channel>
+  <Channel Number="15">Position Y</Channel>
+  <Channel Number="16">Wiggle</Channel>
+  <Channel Number="17">Trace</Channel>
+  <Channel Number="18">Macro</Channel>
+  <Channel Number="19">Nothing?</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
